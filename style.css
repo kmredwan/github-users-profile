@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Average&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Lato:ital,wght@0,300;0,400;0,700;1,100&family=Martel:wght@200&family=Montserrat:wght@300;400;500;600&family=Poppins:wght@400;600&family=Redressed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh;
+
+}
+
+.search{
+    width: 750px;
+}
+
+.search_input{
+    background: #f6f6f6;
+    border: none;
+    outline: none;
+    padding: 30px 25px;
+    border-radius: 20px;
+    margin: 20px auto;
+    display: block;
+    font-size: .95em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+
+
+
+
+
+
+}
+
+.wrapper{
+    width: 750px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #fafaf6;
+    margin: 20px 0px;
+    border-radius:20px ;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+
+.img{
+    border-radius: 50%;
+    overflow: hidden;
+    border: 7px solid #ddd;
+    width: 30%;
+    margin: 30px 0px;
+    margin-bottom: 0px;
+
+}
+
+.user_data{
+    width: 90%;
+    margin: 30px 35px;
+    align-self: center;
+    margin-bottom: 10px;
+} 
+
+.user_data h2{
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}  
+
+.user_data p{
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.user_data ul{
+    display: flex;
+    flex-direction: row;
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.user_data ul li {
+    list-style: none;
+}
+
+
+.repo a {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 4px 10px;
+    text-decoration: none;
+    margin:20px 15px ;
+    border-radius: 5px;
+    color: black;
+}
